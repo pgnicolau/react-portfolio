@@ -2,10 +2,10 @@
 
 ![logo](https://github.com/pgnicolau/react-portfolio/blob/master/public/readme_image.png)
 
-## <a href="https://pensive-golick-762a4c.netlify.app" target="_blank">LIVE DEMO</a>
+## <a href="https://musing-goldwasser-1a07c4.netlify.app/" target="_blank">LIVE DEMO</a>
 
 ## Description
-This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
+This is a ReactJS based personal resume website template for participants of The ReactJS Challenge by Clever 
 
 ## Make it Your Own!
 #### PREREQUISITES:
