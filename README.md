@@ -1,6 +1,6 @@
 # # ReactJS Portfolio Template      
 
-![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")
+![logo](https://github.com/pgnicolau/react-portfolio/blob/master/public/readme_image.png)
 
 ## <a href="https://pensive-golick-762a4c.netlify.app" target="_blank">LIVE DEMO</a>
 
