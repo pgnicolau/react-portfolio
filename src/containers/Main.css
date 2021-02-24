@@ -1,0 +1,10 @@
+.dark-mode {
+  background-color: #171c28;
+  /*background-color: #3AD499;*/
+  color: white;
+  transition: "0.1s";
+}
+
+input:checked + .slider {
+  background-color: #FEB8C8;
+}
