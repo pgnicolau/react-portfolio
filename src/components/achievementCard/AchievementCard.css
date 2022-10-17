@@ -1,14 +1,16 @@
 .card-image {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
+  height: 100%;
   width: 250px;
+  object-fit: cover;
 }
 .card-title {
   color: #000000;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
-  margin: 15px 0 0 0;
+  margin: 30px 0 0 0;
 }
 .card-subtitle {
   color: #666666;

@@ -32,7 +32,7 @@
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px #d9dbdf;
+  /*box-shadow: 0px 10px 30px -15px #d9dbdf;*/
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
@@ -45,7 +45,9 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 .project-card-dark:hover {
-  box-shadow: #d9dbdf 0px 20px 30px -10px;
+  /*box-shadow: #d9dbdf 0px 20px 30px -10px;*/
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
+
 }
 .project-image {
   position: relative;

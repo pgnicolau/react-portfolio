@@ -15,7 +15,7 @@ const greeting = {
         "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
     ),
     resumeLink:
-        "https://docs.google.com/document/d/1BQfBxxPtvow3Pqqkdq9juBtx6x09QnHriuenkTZ1pPs/edit?usp=sharing",
+        "https://career.io/r/FFGLOSiFB",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -125,7 +125,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-    viewSkillBars: true, //Set it to true to show Proficiency Section
+    viewSkillBars: false, //Set it to true to show Proficiency Section
     experience: [
         {
             Stack: "Frontend / Design", //Insert stack or technology you have experience in
@@ -198,30 +198,41 @@ const bigProjects = {
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [
         {
-            image: require("./assets/images/saayaHealthLogo.webp"),
-            projectName: "Saayahealth",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/kk.png"),
+            projectName: "Der Grüne Brief",
+            projectDesc: "Internal app platform for tax counselling company in Austria.",
             footerLink: [
                 {
                     name: "Visit Website",
-                    url: "fa"
+                    url: "https://gruenerbrief.at/"
                 }
                 //  you can add extra buttons here.
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/kk2.jpeg"),
+            projectName: "Kanzlei Kleiner Karriere",
+            projectDesc: "",
             footerLink: [
                 {
                     name: "Visit Website",
-                    url: ""
+                    url: "https://karriere.kanzleikleiner.at/"
                 }
             ]
-        }
+        },
+        {
+            image: require("./assets/images/unavine.jpeg"),
+            projectName: "Unavine",
+            projectDesc: "Video only dating & coaching platform",
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://unavine.com/"
+                }
+            ]
+        },
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -234,56 +245,92 @@ const achievementSection = {
 
     achievementsCards: [
         {
-            title: "Google Code-In Finalist",
-            subtitle:
-                "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-            image: require("./assets/images/codeInLogo.webp"),
+            title: "Slack clone",
+            subtitle: "Developed slack clone for learning",
+            image: require("./assets/images/slack.png"),
             footerLink: [
                 {
-                    name: "Certification",
-                    url:
-                        ""
-                },
-                {
-                    name: "Award Letter",
-                    url:
-                        ""
-                },
-                {
-                    name: "Google Code-in Blog",
+                    name: "Project",
                     url:
                         ""
                 }
             ]
         },
         {
-            title: "Google Assistant Action",
-            subtitle:
-                "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: require("./assets/images/googleAssistantLogo.webp"),
+            title: "Shopify API Challenge",
+            subtitle: "",
+            image: require("./assets/images/shopify.webp"),
             footerLink: [
                 {
-                    name: "View Google Assistant Action",
+                    name: "Shopify code-in challenge",
                     url:
                         ""
                 }
             ]
         },
-
         {
-            title: "PWA Web App Developer",
-            subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: require("./assets/images/pwaLogo.webp"),
+            title: "Whatsapp Mern Project",
+            subtitle: "",
+            image: require("./assets/images/whatsapp.png"),
             footerLink: [
-                {name: "Certification", url: ""},
                 {
-                    name: "Final Project",
-                    url: ""
+                    name: "Code-in challenge",
+                    url:
+                        ""
                 }
             ]
-        }
+        },
+        // {
+        //     title: "Google Code-In Finalist",
+        //     subtitle:
+        //         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        //     image: require("./assets/images/codeInLogo.webp"),
+        //     footerLink: [
+        //         {
+        //             name: "Certification",
+        //             url:
+        //                 ""
+        //         },
+        //         {
+        //             name: "Award Letter",
+        //             url:
+        //                 ""
+        //         },
+        //         {
+        //             name: "Google Code-in Blog",
+        //             url:
+        //                 ""
+        //         }
+        //     ]
+        // },
+        // {
+        //     title: "Google Assistant Action",
+        //     subtitle:
+        //         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        //     image: require("./assets/images/googleAssistantLogo.webp"),
+        //     footerLink: [
+        //         {
+        //             name: "View Google Assistant Action",
+        //             url:
+        //                 ""
+        //         }
+        //     ]
+        // },
+        //
+        // {
+        //     title: "PWA Web App Developer",
+        //     subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+        //     image: require("./assets/images/pwaLogo.webp"),
+        //     footerLink: [
+        //         {name: "Certification", url: ""},
+        //         {
+        //             name: "Final Project",
+        //             url: ""
+        //         }
+        //     ]
+        // }
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
