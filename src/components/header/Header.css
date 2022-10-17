@@ -9,9 +9,9 @@
   color: white !important;
 }
 
-.dark-menu li a:hover {
-  /*border-bottom: 1px solid #FEB8C8;*/
-  background-color: #FEB8C8 !important;
+.dark-menu li:not(:last-child) a:hover{
+  border-bottom: 4px solid #FEB8C8;
+  /*background-color: #FEB8C8 !important;*/
   /*text-decoration: #FEB8C8;*/
 }
 
