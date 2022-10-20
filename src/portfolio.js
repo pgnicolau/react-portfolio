@@ -188,7 +188,7 @@ const openSource = {
     githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
     githubUserName: "pgnicolau", // Change to your github username to view your profile in Contact Section.
     showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -200,7 +200,7 @@ const bigProjects = {
         {
             image: require("./assets/images/kk.png"),
             projectName: "Der Grüne Brief",
-            projectDesc: "Internal app platform for tax counselling company in Austria.",
+            projectDesc: "Internal PWA using Next.js for an Austrian accounting consulting firm.",
             footerLink: [
                 {
                     name: "Visit Website",
@@ -239,9 +239,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-    title: emoji("Achievements And Certifications 🏆 "),
-    subtitle:
-        "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
+    title: emoji("Some Cool Stuff that I have done! "),
+    // title: emoji("Achievements And Certifications 🏆 "),
+    // subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
 
     achievementsCards: [
         {
@@ -251,8 +251,7 @@ const achievementSection = {
             footerLink: [
                 {
                     name: "Project",
-                    url:
-                        ""
+                    url: ''
                 }
             ]
         },
