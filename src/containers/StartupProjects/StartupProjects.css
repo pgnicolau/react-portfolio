@@ -17,11 +17,12 @@
 }
 .project-card {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  gap: 30px;
+  /*background-color: rgb(255, 255, 255);*/
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  /*border: 1px solid rgba(211, 211, 211, 0.397);*/
   justify-content: center;
 }
 .project-card-light {
@@ -39,21 +40,26 @@
 }
 
 .project-detail {
-  text-align: center;
+  text-align: left;
 }
 .project-card-light:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  /*box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;*/
 }
 .project-card-dark:hover {
   /*box-shadow: #d9dbdf 0px 20px 30px -10px;*/
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
+  /*box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;*/
 
 }
 .project-image {
   position: relative;
-  height: 250px;
-  overflow: hidden;
+  /*height: 250px;*/
+  /*overflow: hidden;*/
   text-align: center;
+}
+
+.project-image img {
+  width: 100px;
+  object-fit: contain;
 }
 
 .projects-container {

@@ -8,3 +8,22 @@
 input:checked + .slider {
   background-color: #FEB8C8;
 }
+
+.main-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.left-container {
+  max-height: 100vh;
+  position: sticky;
+  width: 50%;
+  flex-direction: column;
+}
+
+.right-container {
+  width: 50%;
+}

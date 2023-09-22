@@ -4,7 +4,7 @@ import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
   return (
-    <div>
+    <div style={{marginTop: '50px'}}>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {
@@ -15,7 +15,7 @@ export default function SoftwareSkill() {
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+                {/*<p>{skills.skillName}</p>*/}
               </li>
             );
           })}

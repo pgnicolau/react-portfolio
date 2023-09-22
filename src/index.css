@@ -1,15 +1,22 @@
+/*@font-face {*/
+/*  font-family: "Agustina Regular";*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*  src: local("Agustina Regular"),*/
+/*    url("./assets/fonts/Agustina.woff") format("woff");*/
+/*  font-display: swap;*/
+/*}*/
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: local("Montserrat"),*/
+/*    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");*/
+/*  font-display: swap;*/
+/*}*/
+
 @font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-family: "GabrielaFont";
+  src: local("GabrielaFont"),
+  url("./assets/fonts/730e8169368baf37-s.p.woff2") format("woff2");
   font-display: swap;
 }
 code {
@@ -22,7 +29,7 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px GabrielaFont, "GabrielaFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,4 +40,9 @@ body {
     font-size: 16px;
     line-height: normal;
   }
+}
+
+p {
+  font-weight: 200;
+  font-size: 16px;
 }

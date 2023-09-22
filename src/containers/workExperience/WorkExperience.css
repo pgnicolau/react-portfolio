@@ -1,7 +1,9 @@
 .experience-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /*grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));*/
+  /*gap: 1rem 1rem;*/
 }
 
 .experience-heading {
